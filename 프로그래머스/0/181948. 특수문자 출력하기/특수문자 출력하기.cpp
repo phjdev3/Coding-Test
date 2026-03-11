@@ -3,6 +3,6 @@
 using namespace std;
 
 int main(void) {
-    cout << R"(!@#$%^&*(\'"<>?:;)" << endl; // Raw String Literal
+    cout << "!@#$%^&*(\\\'\"<>?:;" << endl; // 특수문자 처리 \
     return 0;
 }
